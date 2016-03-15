@@ -1,0 +1,193 @@
+*{
+    font: 13px/18px Verdana, Arial, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #085394;
+}
+
+button {
+    background: white;
+    box-shadow: 2px 2px 2px 0 black;
+    font-weight: bold;
+    border: 2px solid black;
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+header {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100%;
+    background: #007DC5 url("../images/logo.jpg") no-repeat 5%;
+    background-size: contain;
+    text-align: right;
+    margin-bottom: 0.5%;
+}
+header .login, header .logout {
+    display: inline-block;
+    margin: 1.2% 3% 1.1% 0;
+}
+
+nav a{
+    font-weight: bold;
+}
+nav a:last-child {
+    text-decoration: none;
+    color: black;
+}
+.page-name {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 3% 0 1.35%;
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1.1em;
+}
+.user-contacts {
+    float: left;
+    width: 200px;
+    background: url("../images/line.png") no-repeat 37px 23px;
+    background-size: 80%;
+    padding-top: 15px;
+}
+.user-login, .user-login-value, .contact-title {
+    font-weight: bold;
+}
+.contact-title, .contact-value {
+    font-style: italic;
+}
+
+form {
+    float: left;
+    width: 70%;
+}
+table {
+    width: 100%;
+    min-width: 1000px;
+    margin-bottom: 2%;
+    border-collapse: collapse;
+}
+table tr {
+    height: 35px;
+}
+table th, table td {
+    border: 2px solid black;
+}
+table th {
+    font-weight: bold;
+}
+table th:first-child {
+    padding-top:1%;
+}
+.title {
+    background: white;
+    box-shadow: 2px 2px 2px 0 black;
+    font-weight: 600;
+    border: 2px solid black;
+}
+.text {
+    padding-left: 0.5%;
+    background: white;
+}
+table tr th:nth-child(1){width: 6%;min-width: 70px;}
+table tr th:nth-child(2){width: 19%;}
+table tr th:nth-child(3){width: 3%;}
+table tr th:nth-child(4){width: 37%;}
+table tr th:nth-child(5){width: 15%;}
+table tr th:nth-child(6){width: 10%;}
+table tr th:nth-child(7){width: 10%;}
+
+table tr td:first-child {
+    background: url("../images/bond.png") no-repeat 0 90%;
+    background-size: 100px 100%;
+}
+input[type="search"] {
+    width: 95%;
+    border: 2px solid black;
+    padding-left: 3%;
+    margin-left: 2.5%;
+}
+.correct {
+    background: url("../images/V.png") no-repeat 0 30%;
+    background-size: contain;
+}
+.incorrect {
+    background: url("../images/X.png") no-repeat 0 30%;
+    background-size: contain;
+}
+.unknown {
+    background: white url("../images/7.png") no-repeat 50% 10%;
+    background-size: contain;
+}
+.disable {
+    background-color: #8d8c8b;
+}
+.invisible {
+    border: none;
+}
+table button {
+    background-color: #009e0f;
+    color: white;
+}
+table textarea {
+    border: none;
+    width: 100%;
+    resize: none;
+}
+
+.send-data {
+    position: relative;
+    margin-left: 5%;
+}
+.send-data input {
+    width: 200px;
+    border: 2px solid black;
+    margin: 1% 5% 3% 0;
+}
+.send-data button {
+    background-color: #93c47d;
+    width: 100px;
+    margin-left: 3%;
+}
+.hint {
+    background: url("../images/hint.png") no-repeat center;
+    background-size: cover;
+    width: 30%;
+    padding: 3.5% 1% 1% 1%;
+    position: absolute;
+    left: -35%;
+    top: 0;
+    text-align: justify;
+}
+
+input[type="submit"] {
+    font-weight: bold;
+    color: white;
+    margin-left: 5%;
+    border: 2px solid black;
+    width: 55%;
+    background: #009e0f;
+    padding: 0.2% 0 0.2% 2%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.cancel {
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: none;
+    background: #666666;
+    color: white;
+    margin-left: 3%;
+}
+
+

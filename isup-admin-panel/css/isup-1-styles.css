@@ -1,0 +1,104 @@
+*{
+    font: 13px/18px Verdana, Arial, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #085394;
+}
+
+button {
+    background: white;
+    box-shadow: 2px 2px 2px 0 black;
+    font-weight: 600;
+    border: 2px solid black;
+}
+html {
+    height: 100%;
+}
+body {
+    width: 80%;
+    min-width: 850px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+header, .block-title {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100%;
+}
+
+header {
+    background: #007DC5 url("../images/logo.jpg") no-repeat 5%;
+    background-size: contain;
+    text-align: right;
+    margin-bottom: 0.5%;
+}
+header .login, header .logout {
+    display: inline-block;
+    margin: 1.2% 3% 1.1% 0;
+}
+
+nav a{
+    font-weight: bold;
+}
+nav a:last-child {
+    text-decoration: none;
+    color: black;
+}
+.settings {
+    position: absolute;
+    top: 8%;
+    right: 13%;
+}
+.settings img {
+    vertical-align: middle;
+}
+.block-users, .block-content, .block-statistic {
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    height: 50%;
+    margin: 5% 0 0 7%;
+}
+.block-title {
+    display: inline-block;
+    height: 10%;
+    margin-bottom: 5%;
+    font-size: larger;
+    text-align: center;
+    padding: 7% 0;
+}
+.search-title {
+    display: inline-block;
+    margin-bottom: 2%;
+    resize: none;
+    background: none;
+    padding: 0 1%;
+    color: black;
+    border: none;
+}
+input[type="search"] {
+    display: inline-block;
+    width: 68%;
+    border: 2px solid black;
+    padding: 1%;
+    margin-bottom: 3%;
+}
+.search-field .user-name {
+    padding-left: 4%;
+}
+.to-search {
+    vertical-align: top;
+    margin-left: 5%;
+    width: 25%;
+}
+.users-block a, .content-block a {
+    color: #2b78e4;
+}

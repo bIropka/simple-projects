@@ -1,0 +1,220 @@
+*{
+    font: 13px/18px Verdana, Arial, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #085394;
+    display: inline-block;
+}
+button {
+    background: white;
+    box-shadow: 2px 2px 2px 0 black;
+    font-weight: 600;
+    border: 2px solid black;
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+header {
+    background: #007DC5 url("../images/logo.jpg") no-repeat 5%;
+    background-size: contain;
+    text-align: right;
+    margin-bottom: 0.5%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100%;
+}
+header .login, header .logout {
+    display: inline-block;
+    margin: 1.2% 3% 1.1% 0;
+}
+nav a{
+    font-weight: bold;
+}
+nav a:last-child {
+    text-decoration: none;
+    color: black;
+}
+.page-name {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 3% 0 3%;
+    font-size: 1.8em;
+    line-height: 1.1em;
+}
+.show-statistic {
+    width: 90%;
+    margin-left: 10%;
+}
+.choose-period {
+    display: inline-block;
+}
+.choose-period ul{
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 0 black;
+}
+.choose-period ul li {
+    display: inline-block;
+    border-right: 2px solid black;
+}
+.choose-period ul li:hover {
+    background-color: #6782ab;
+}
+.choose-period ul li:last-child {
+    border-right: none;
+}
+.choose-period-title {
+    margin-bottom: 1%;
+}
+.delimiter {
+    display: inline-block;
+}
+.write-period {
+    display: inline-block;
+    width: 50%;
+}
+
+.write-period input {
+    width: 150px;
+}
+.write-period img {
+    width: 3%;
+    height: 3%;
+}
+.write-period button {
+    display: inline-block;
+    width: 7%;
+    margin-left: 3%;
+}
+
+/*Table***************
+**********************/
+.table-outer, .table-inner {
+    background-color: white;
+}
+
+.table-outer {
+    width: 90%;
+    text-align: center;
+    margin: 2% 0 2% 10%;
+    border-collapse: collapse;
+}
+.table-outer-head th {
+    width: 10%;
+    background-color: #cccccc;
+    border-left: 2px solid black;;
+    border-top: 2px solid black;
+}
+.table-outer-head th:last-child, .table-outer td:last-child {
+    border-right: 2px solid black;
+}
+.table-outer-head th:first-child {
+    width: 10%;
+}
+.table-outer-head th:nth-child(2) {
+    width: 25%;
+}
+.table-outer-head th:nth-child(3) {
+    width: 8%;
+}
+.table-outer-head th:nth-child(4) {
+    width: 25%;
+}
+.table-outer-head th:nth-child(5) {
+    width: 9%;
+}
+.table-outer-head th:nth-child(6) {
+    width: 28%;
+}
+.table-outer td {
+    border-left: 2px solid black;
+}
+.table-outer tr:nth-child(4n - 2) {
+    background-color: #eeeeee;
+}
+.table-outer .user-name {
+    color: #085394;
+    text-decoration: underline;
+    padding: 0.8% 0;
+}
+.table-outer tr:last-child {
+    border-bottom: 2px solid black;
+}
+.table-inner {
+    border-collapse: collapse;
+    border-top: 2px solid black;
+    border-bottom: 4px solid black;
+    width: 100%;
+    display: none;
+}
+.table-outer tr td:nth-child(4) {
+   padding-left: 1%;
+}
+.hide, .show {
+    color: #085394;
+    text-decoration: underline;
+    display: inline-block;
+}
+.hide {
+    display: none;
+}
+
+/* Show inner table *********
+*****************************/
+.user-1 .table-inner{
+    display: table;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    opacity: 1;
+}
+.user-1 .show {
+    display: none;
+}
+.user-1 .hide {
+    display: inline;
+}
+
+.table-inner th, .table-inner td{
+    border: 2px solid black;
+    width: 60%;
+}
+.table-inner th:first-child, .table-inner td:first-child{
+    border-left: none;
+    width: 15%;
+}
+.table-inner th:last-child, .table-inner td:last-child{
+    border-right: none;
+    width: 20%;
+}
+.table-inner-head {
+    background-color: #cccccc;
+}
+.table-inner tr:nth-child(2n) {
+    background-color: #eeeeee;
+}
+.send-short-stat, .send-full-stat, .print {
+    margin: 1% 10%;
+}
+.send-short-stat input, .send-full-stat input {
+    width: 25%;
+    margin: 1% 2% 0 0;
+    padding: 0.5%;
+}
+.send-short-stat button, .send-full-stat button {
+    margin-right: 2%;
+    width: 20%;
+    background-color: #93c47d;
+
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/isup-4-5-styles.css" >
+    <title>Редактировать пользователя</title>
+</head>
+<body>
+
+<header>
+    <div class="user-name">adminISUP</div>
+    <button class="logout">ВЫХОД</button>
+</header>
+
+<nav>
+    <a href="">Главная</a> < <a href="">Панель администратора</a> < <a href="">Пользователи</a> < <a href="">Редактировать пользователя</a>
+</nav>
+
+<span class="page-name">Редактировать пользователя</span>
+
+<form action="">
+
+    <div class="left-column">
+
+        <span class="field-title">Название:</span>
+        <input type="text" name="new-username" value="КОМПЛЕКТАЦИЯ, ООО"/>
+
+        <span class="field-title">Логин:</span>
+        <input type="text" name="user-login" value="Komplektacia"/>
+
+        <span class="field-title">Адрес:</span>
+        <input type="text" name="address" value="Россия, 644000, г. Омск, ул. 22 Декабря, д. 84ф, офис 101"/>
+
+        <span class="field-title">Web:</span>
+        <input type="url" name="web-address" value="www.asutp-omsk.ru"/>
+
+        <span class="field-title">E-mail:</span>
+        <input type="email" name="email-1" value="mixeyja@yandex.ru"/>
+
+        <span class="signature-title">Настройка подписей к материалам</span>
+        <textarea class="signature" rows="12"></textarea>
+
+        <input type="submit" value="Сохранить изменения"/>
+
+    </div>
+
+    <div class="right-column">
+
+        <span class="field-title">Телефон:</span>
+        <input type="tel" name="phone" value="+7(3812)28-68-95"/>
+
+        <span class="field-title">Факс:</span>
+        <input type="tel" name="fax" value="+7(3812)92-76-88"/>
+
+        <span class="field-title">E-mail:</span>
+        <input type="email" name="email-2" value="mixeyja@yandex.ru"/>
+
+        <div class="new-logo">
+            <span class="user-logo-title">Логотип (jpg, png)</span>
+            <img src="images/user-logo.png">
+            <label><div class="download">Загрузить новую картинку</div><input type="file"/></label>
+        </div>
+
+        <span class="links-title">Ссылки для вставки в подпись</span>
+        <div class="links">
+            <label>Link 1<input type="url" name="link-1"></label>
+            <label>Link 2<input type="url" name="link-2"></label>
+            <label>Link 3<input type="url" name="link-3"></label>
+            <label>Link 4<input type="url" name="link-4"></label>
+            <label>Link 5<input type="url" name="link-5"></label>
+            <label>Link 6<input type="url" name="link-6"></label>
+            <label>Link ...<input type="url" name="link-..."></label>
+            <label>Link N<input type="url" name="link-N"></label>
+            <div class="hint">Все прочие ссылки будут "затираться"</div>
+        </div>
+
+        <button class="cancel">Отменить</button>
+
+    </div>
+
+</form>
+
+</body>
+</html>

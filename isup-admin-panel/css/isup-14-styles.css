@@ -1,0 +1,121 @@
+*{
+    font: 13px/18px Verdana, Arial, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #085394;
+}
+
+button {
+    background: #93c47d;
+    box-shadow: 2px 2px 2px 0 black;
+    font-weight: 600;
+    border: 2px solid black;
+}
+input {
+    border: 2px solid black;
+    padding-left: 2%;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+header {
+    width: 100%;
+    background: #007DC5 url("../images/logo.jpg") no-repeat 5%;
+    background-size: contain;
+    border: 2px solid black;
+    text-align: right;
+    margin-bottom: 0.5%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+header .login, header .logout {
+    display: inline-block;
+    margin: 1.2% 3% 1.1% 0;
+}
+
+nav a{
+    font-weight: bold;
+}
+nav a:last-child {
+    text-decoration: none;
+    color: black;
+}
+
+.page-name {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 5% 0 1.35% 5%;
+    font-size: 1.8em;
+    line-height: 1.1em;
+}
+.hint {
+    position: absolute;
+    left: 18%;
+    top: 9%;
+    background: url("../images/hint.png") center top;
+    background-size: cover;
+    width: 20%;
+    padding: 3% 1% 0.6%;
+    text-align: justify;
+}
+table {
+    width: 50%;
+    float: right;
+    margin-top: 5%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table caption   {
+    text-align: left;
+    margin-bottom: 1.5%;
+}
+table th, table td {
+    border: 2px solid black;
+    border-top: none;
+    border-bottom: none;
+}
+table th {
+    background-color: #cccccc;
+}
+table th:first-child {
+    width: 50%;
+    text-align: left;
+    padding-left: 1%;
+}
+table td{
+    padding: 1%;
+    text-align: center;
+}
+table tr:nth-child(2n) {
+    background-color: #eeeeee;
+}
+table .user-name {
+    text-align: left;
+    color: #6782ab;
+    text-decoration: underline;
+}
+.statistic {
+    float: left;
+    width: 35%;
+    display: inline-block;
+    margin: 15% 0 0 10%;
+}
+.sending-number {
+    float: left;
+    display: inline-block;
+    width: 35%;
+    margin: 5% 0 0 10%;
+}
+.sending-number input {
+    width: 10%;
+}

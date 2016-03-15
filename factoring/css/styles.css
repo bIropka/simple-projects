@@ -1,0 +1,91 @@
+@font-face {font-family: "OpenSans Regular";src: url("../fonts/OpenSansRegular.ttf");}
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "OpenSans Regular",sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+    color: #010000;
+}
+/* Стиль для блока .wrap можно убрать после вставки статьи в базовую страницу*/
+.wrap {
+    max-width: 770px;
+    width: 95%;
+    margin: 0 auto;
+}
+.factoring-block {width: 100%;}
+.factoring-block h1, .factoring-block h2 {
+    font-size: 1.6em;
+    color: #77a119;
+    font-weight: 100;
+    margin: 0.8em 0 0.2em;
+}
+.factoring-block h2 {font-size: 1.4666667em;}
+.factoring-block h3 {
+    font-size: 1.2em;
+    color: #4575ab;
+    font-weight: 100;
+    margin: 0.5em 0 0.2em;
+}
+.factoring-block .line {
+    width: 30px;
+    border: 3px solid #e7e7e7;
+}
+.factoring-block p {margin: 1.2em 0;}
+.factoring-block .sub-title {font-weight: 600;}
+.factoring-block .blue-text {
+    color: #4575ab;
+    text-decoration: underline;
+}
+.factoring-block .green-paragraph {
+    border-left: 5px solid #9ac43c;
+    padding: 1em;
+    font-style: italic;
+    font-size: 0.933333em;
+    line-height: 1.4em;
+    background: #f1f1f1;
+}
+.factoring-block ol, .factoring-block ul {padding-left: 5%;}
+.factoring-block ol li {
+    font-weight: 600;
+    color: #02438d;
+}
+.factoring-block ul {list-style: url('../images/list-icon.png');}
+.factoring-block .usual-text {font-weight: 100;}
+.factoring-block table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.factoring-block table th {
+    background: -webkit-linear-gradient(to top, #fff, #000);
+    background: -moz-linear-gradient(to top,  #fff,  #000);
+    background: -o-linear-gradient(to top,  #fff,  #000);
+    background: -ms-linear-gradient(to top,  #fff,  #000);
+    background: linear-gradient(to top,  #9ac43c 0, #9ac43c 65%,  #cce159 88%,#cce159 93%, #9ac43c 100%);
+    text-align: left;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 0.933333em;
+    padding: 0.8em 1em;
+    border-right: 1px solid #ffffff;
+    width: 34.5%;
+}
+.factoring-block table th:nth-child(2) {width: 34.5%;}
+.factoring-block table th:last-child {border-right: none;width: 29.5%;}
+.factoring-block table td {
+    background: #f1f1f1;
+    text-align: left;
+    font-size: 0.933333em;
+    padding: 0.8em 5% 0.8em 1em;
+    border-right: 1px solid #ffffff;
+}
+.factoring-block table tr:nth-child(2n + 1) td {background: #f8f9f9;}
+.factoring-block table td:last-child {border-right: none;}
+
+@media (max-width: 600px) {
+
+}

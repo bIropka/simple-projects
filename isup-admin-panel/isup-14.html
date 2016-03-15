@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Общие настройки</title>
+    <link rel="stylesheet" href="css/isup-14-styles.css" >
+</head>
+<body>
+
+    <header>
+        <div class="login">adminISUP</div>
+        <button class="logout">ВЫХОД</button>
+    </header>
+
+    <nav>
+        <a href="">Главная</a> < <a href="">Общие настройки</a>
+    </nav>
+
+    <span class="page-name">Общие настройки</span>
+
+    <div class="hint">Чтобы пользователь сайта имел доступ к данному разделу (Общие настройки) необходимо чтобы он был включен в группу "Администраторы ссылок" и/или просто администратора</div>
+
+    <table border="1">
+        <caption>Доступ пользователей</caption>
+        <tr>
+            <th>Логин: (сортировка)</th>
+            <th>Просмотр</th>
+            <th>Редактирование</th>
+            <th>Администратор</th>
+        </tr>
+        <tr>
+            <td class="user-name">AdminISUP</td>
+            <td><input type="checkbox" checked disabled></td>
+            <td><input type="checkbox" checked disabled></td>
+            <td><input type="checkbox" checked disabled></td>
+        </tr>
+        <tr>
+            <td class="user-name">Ateplokom</td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox" checked></td>
+        </tr>
+        <tr>
+            <td class="user-name">ipc2u.ru</td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox" checked></td>
+        </tr>
+        <tr>
+            <td class="user-name">promautomatic</td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td class="user-name">pes-rus</td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td class="user-name">rsautomatic</td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td class="user-name">sinkross</td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td class="user-name">dpmark</td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td class="user-name">ROADY</td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td class="user-name">indstore</td>
+            <td><input type="checkbox" checked></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+        </tr>
+    </table>
+
+    <label class="statistic"><input type="checkbox"/>&nbsp;&nbsp;&nbsp;Отсылать пользователям статистику раз в месяц</label>
+
+    <label class="sending-number">Выбор числа отправки&nbsp;&nbsp;&nbsp;<input type="number" min="1" max="100" value="1"/></label>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/isup-7-styles.css" >
+    <title>Добавление ссылок в статью</title>
+</head>
+<body>
+
+    <header>
+        <div class="user-name">adminISUP</div>
+        <button class="logout">ВЫХОД</button>
+    </header>
+
+    <nav>
+        <a href="">Главная</a> < <a href="">Панель администратора</a> < <a href="">Материалы</a> < <a href="">Добавление ссылок в материал</a> < <a href="">Добавление ссылок в статью "&laquo;Облако&raquo; в... подвале"</a>
+    </nav>
+
+    <span class="page-name">Добавление ссылок в статью "&laquo;Облако&raquo; в... подвале"</span>
+
+    <form action="" name="links-adding">
+
+        <p class="preview">Крупномасштабные проекты по установке узлов учета ресурсов сегодня используются по всей России. Это происходит в рамках исполнения Федерального закона №261 "Об энергосбережении" и является первым звеном на пути повышения энергоэффективности хозяйства страны. Одним из элементов сложной системы, включающей поставку и учет ресурсов, регулирование потребления и сбор данных, является организация стабильной и безопасной передачи информации от приборов, регистрирующих потребление энергии, с помощью "облачных" технологий в системы коммерческого учета, а также в базы данных управляющих компаний или товариществ собственников жилья, аварийные и сервисные службы, личные кабинеты пользователей.</p>
+        <textarea class="title" rows="3" disabled>Анонс</textarea>
+
+        <div class="words-and-links">
+                <input type="text" name="word-1" value="МПД-1">
+                <input type="url" name="url-1" value="http://isup.ru/articles/3/6495/">
+                <input type="text" name="word-2" value="IP-адресов">
+                <input type="url" name="url-2" value="http://isup.ru/articles/3/6495/">
+                <input type="text" name="word-3" value="RS-485">
+                <input type="url" name="url-3" value="http://isup.ru/articles/3/6495/">
+                <input type="text" name="word-4">
+                <input type="url" name="url-4">
+                <input type="text" name="word-5">
+                <input type="url" name="url-5">
+                <button>Добавить еще пункты</button>
+        </div>
+        <textarea class="title" rows="3" disabled>Слова и ссылки</textarea>
+
+        <div class="validity">
+            <p>С*&nbsp;&nbsp;&nbsp;<label><input type="date">&nbsp;<img src="images/calendar.png"></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;По*&nbsp;&nbsp;&nbsp;<label><input type="date">&nbsp;<img src="images/calendar.png"></label></p>
+            <br>
+            <p>* Если дата не установлена, ссылки будут показываться вечно</p>
+            <br>
+            <input type="checkbox" id="checkbox"><label for="checkbox"> Установить пробный период 2 месяца</label>
+        </div>
+        <textarea class="title" rows="3" disabled>Период действия ссылок</textarea>
+
+        <div class="send-letter">
+            <p>Отправить на email</p>
+            <input type="text" value="Teplokom@email.ru">
+            <button>Отправить Pdf</button>
+            <button>Отправить Excel</button>
+        </div>
+        <textarea class="title" rows="3" disabled>Отправить данные</textarea>
+
+        <input class="submit" type="submit" value="Сохранить">
+        <button class="cancel">Отменить</button>
+
+    </form>
+</body>
+</html>

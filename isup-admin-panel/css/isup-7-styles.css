@@ -1,0 +1,133 @@
+*{
+    font: 13px/18px Verdana, Arial, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    box-shadow: 2px 2px 2px 0 black;
+    font-weight: 600;
+    border: 2px solid black;
+}
+input {
+    border: 2px solid black;
+    padding-left: 2%;
+}
+header, input[type="submit"], .cancel {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+header {
+    width: 100%;
+    background: #007DC5 url("../images/logo.jpg") no-repeat 5%;
+    background-size: contain;
+    border: 2px solid black;
+    text-align: right;
+    margin-bottom: 0.5%;
+}
+header .user-name, header .logout {
+    display: inline-block;
+    margin: 1.2% 3% 1.1% 0;
+}
+
+nav a{
+    color: #0c5394;
+    font-weight: bold;
+}
+nav a:last-child {
+    text-decoration: none;
+    color: black;
+}
+
+.page-name {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 5% 0 1.35%;
+    font-size: 1.8em;
+    line-height: 1.1em;
+}
+
+form {
+    width: 100%;
+}
+
+.title {
+    float: right;
+    margin-right: 2%;
+    font-size: 1.1em;
+    font-style: italic;
+    color: #878787;
+    font-weight: bold;
+    resize: none;
+    background: none;
+    border: none;
+    width: 17%;
+    text-align: right;
+}
+
+.preview, .words-and-links, .validity, .send-letter {
+    float: right;
+    width: 80%;
+    margin-bottom: 3%;
+}
+
+.words-and-links input {
+    float: left;
+    width: 35%;
+    margin-bottom: 1.5%;
+}
+.words-and-links input:nth-child(2n) {
+    float: right;
+    width: 55%;
+}
+.words-and-links button {
+    float: right;
+    width: 40%;
+}
+
+.validity input {
+    width: 15%;
+    min-width: 150px;
+}
+.validity img {
+    width: 1.3%;
+    height: 1.3%;
+}
+.words-and-links button, .send-letter button {
+    background-color: #93c47d;
+}
+.send-letter input {
+    width: 25%;
+}
+.send-letter button {
+    width: 25%;
+    margin-left: 3%;
+}
+.submit {
+    margin-left: 17%;
+    width: 40%;
+    background: #009e0f;
+    padding: 0.2% 0 0.2% 2%;
+    font-weight: bold;
+}
+.cancel {
+    width: 15%;
+    border-radius: 10px;
+    box-shadow: none;
+    background: #666666;
+    color: white;
+    margin-left: 3%;
+}
+
+
+
+

@@ -1,0 +1,162 @@
+*{
+    font: 13px/18px Verdana, Arial, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    box-shadow: 2px 2px 2px 0 black;
+    font-weight: 600;
+    border: 2px solid black;
+}
+input {
+    border: 2px solid black;
+    padding-left: 1%;
+}
+header, input[type="submit"], .cancel {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+header {
+    width: 100%;
+    background: #007DC5 url("../images/logo.jpg") no-repeat 5%;
+    background-size: contain;
+    border: 2px solid black;
+    text-align: right;
+    margin-bottom: 0.5%;
+}
+header .user-name, header .logout {
+    display: inline-block;
+    margin: 1.2% 3% 1.1% 0;
+}
+
+nav a{
+    color: #0c5394;
+    font-weight: bold;
+}
+nav a:last-child {
+    text-decoration: none;
+    color: black;
+}
+
+.page-name {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 2% 0 1.35%;
+    font-size: 1.8em;
+    line-height: 1.1em;
+}
+form {
+    width: 95%;
+    margin-left: 5%;
+}
+.left-column {
+    width: 40%;
+    float: left;
+}
+.right-column {
+    width: 40%;
+    float: left;
+}
+.left-column .field-title, .right-column .field-title {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.8%;
+}
+.left-column input, .right-column input {
+    width: 80%;
+    margin-bottom: 5%;
+}
+input[name="web-address"] {
+    color: #0c5394;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.signature-title, .user-logo-title, .links-title {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 3%;
+}
+.signature-title {
+    margin-top: 8%;
+}
+.signature-title {
+    text-align: center;
+}
+.signature {
+    display: inline-block;
+    width: 95%;
+    resize: none;
+    border: 2px solid black;
+    padding: 5% 0.5% 0.5%;
+    background: url("../images/signature-head.png") no-repeat;
+    background-size: contain;
+    margin-bottom: 5%;
+}
+input[type="submit"] {
+    width: 100%;
+    background: #009e0f;
+    padding: 0.2% 0 0.2% 2%;
+    color: white;
+    font-weight: bold;
+}
+.new-logo {
+    position: relative;
+    margin-bottom: 14%;
+    vertical-align: middle;
+}
+.new-logo img {
+    width: 20%;
+    border: 2px solid black;
+}
+input[type="file"] {
+    display: none;
+
+}
+.download {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    min-width: 200px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 0 black;
+    text-align: center;
+}
+.links-title, .links {
+    margin-left: 35%;
+}
+.links label {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 3%;
+}
+.links input {
+    position: absolute;
+    width: 70%;
+    left: 20%;
+    top: 0;
+}
+.hint {
+    display: inline-block;
+    width: 80%;
+    background: url("../images/hint.png") no-repeat center top;
+    background-size: cover;
+    text-align: justify;
+    padding: 5% 1% 1%;
+}
+.cancel {
+    font-weight: bold;
+    background-color: #666666;
+    color: white;
+    margin: 1.5% 10%;
+}

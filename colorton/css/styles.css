@@ -1,0 +1,335 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic);
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1em;
+    list-style: none;
+    font-family: "Comfortaa", sans-serif;
+}
+
+html {
+    background-image: url("../images/seamless_paper_texture.png");
+    height: 100%;
+}
+
+body {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+}
+.logo, .company, .contacts {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 17%;
+    padding-top: 11%;
+    background: url("../images/logo.png") no-repeat center center;
+    background-size: 90%;
+}
+.company {
+    width: 55%;
+    padding-top: 1%;
+    text-align: center;
+}
+.company-name {
+    font-size: 2.3em;
+    font-weight: 600;
+}
+.company-services li{
+    display: inline-block;
+    width: 32%;
+    font-size: 1.2em;
+    text-align: left;
+    margin-top: 2%;
+}
+.company-services li:nth-child(2n) {
+    width: 51%;
+}
+
+.contacts {
+    width: 25%;
+    font-size: 1.2em;
+    padding: 1.5% 0 0 3%;
+    text-align: left;
+}
+.contacts li {
+    margin-bottom: 1%;
+}
+.menu {
+    display: table;
+    width: 100%;
+}
+.menu ul {
+    display: table-row;
+}
+.menu ul li {
+    display: table-cell;
+    width: 12%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.2% 0;
+    background: linear-gradient(to top, #66cccc, #333399);
+    border-right: 2px solid #dfdbd2;
+}
+.menu ul li:last-child{
+    border: none;
+}
+.menu ul li a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 1em;
+}
+.menu ul li:hover {
+    background: linear-gradient(to top, #33cccc, #000099);
+}
+
+.block-title {
+    background: linear-gradient(to top, #ffcc33, #cc6633);
+    font-size: 1.6em;
+    display: inline-block;
+    width: 100%;
+    margin: 3% 0 0;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 0.5% 0;
+}
+
+.digital-print {
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+}
+.digital-print li {
+    display: inline-block;
+    width: 15%;
+    margin: 1% 2%;
+}
+.digital-print li a {
+    position: relative;
+    opacity: 0.5;
+    display: inline-block;
+    width: 100%;
+    padding-top: 110%;
+    border: 3px solid black;
+}
+.digital-print li:nth-child(1) a {
+     background: url("../images/logo.png") no-repeat;
+     background-size: contain;
+ }
+.digital-print li:nth-child(2) a {
+    background: url("../images/220px-Soviet_aluminum_mug.jpg") no-repeat;
+    background-size: contain;
+}
+.digital-print li a:hover {
+    opacity: 1;
+}
+
+.service {
+    display: inline-block;
+    width: 100%;
+}
+.service-description {
+    display: inline-block;
+    width: 70%;
+    font-size: 1.5em;
+    vertical-align: top;
+    padding: 3%;
+}
+.service-info {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+.service-title {
+    display: inline-block;
+    text-decoration: underline;
+    width: 100%;
+ }
+.service-list {
+    display: inline-block;
+    padding-left: 10%;
+    width: 100%;
+}
+.service-price {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin-left: 3.5%;
+}
+.price-value {
+    display: inline-block;
+    padding-left: 10%;
+    text-decoration: underline;
+}
+.price-value span {
+    font-size: larger;
+}
+.service-price button {
+    width: 40%;
+    margin: 5% 0 0 25%;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to top, #66cccc, #333399);
+    color: white;
+    padding: 1%
+}
+.service-text {
+    display: inline-block;
+    margin-top: 5%;
+    width: 60%;
+}
+.service-image {
+    display: inline-block;
+    width: 15%;
+    padding-top: 15%;
+    margin: 3% 5%;
+    background: url("../images/220px-Soviet_aluminum_mug.jpg") no-repeat;
+    background-size: cover;
+}
+footer {
+    width: 100%;
+    background-color: #6699cc;
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 2% 5%;
+    color: white;
+}
+
+/************* ������� **************/
+.arrow {
+    position: fixed;
+    min-height: 2000px;
+    width: 0px;
+    opacity: 0.7;
+}
+#back-top {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+}
+#back-top a {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+.arrow:hover {
+    opacity: 1;
+}
+#back-top span {
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-bottom: -14px;
+    background: #000;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+/* ************�������������� ��������******************/
+.price-list {
+    display: inline-block;
+    padding-top: 1%;
+    width: 60%;
+    margin: 0 3%;
+}
+.price-list-title {
+    font-size: 2em;
+}
+.price-list-info, .description-info {
+    font-size: 1.5em;
+    display: inline-block;
+    width: 100%;
+}
+.table {
+    display: inline-block;
+    width: 100%;
+    padding-top: 50%;
+    border: 2px solid black;
+    margin: 1% 0;
+}
+.photos {
+    display: inline-block;
+    width: 30%;
+    padding-top: 1%;
+}
+.photos li {
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    border: 1px solid black;
+    padding-top: 30%;
+    margin-bottom: 3%;
+}
+.description-info {
+    padding: 2% 0 0 5%;
+}
+.description {
+    display: inline-block;
+    padding: 0.7% 0 5%;
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 3em;
+}
+/*************** ������������ ******************/
+@media (max-width: 1366px) {
+
+    .company-services li{
+
+    }
+    .company-services li:nth-child(2n) {
+
+    }
+    .contacts {
+        padding: 1% 0;
+    }
+    .description {
+        padding: 0.7% 3% 5% 3%;
+    }
+    #back-top {
+        right: 5%;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    * {
+        font-size: 0.96em;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    * {
+        font-size: 0.925em;
+    }
+}
+
+@media (max-width: 768px) {
+
+    * {
+        font-size: 0.87em;
+    }
+    .service-price {width: 45%;}
+    .arrow{display: none;}
+}
+
+@media (max-width: 560px) {
+
+    * {
+        font-size: 0.82em;
+    }
+}
